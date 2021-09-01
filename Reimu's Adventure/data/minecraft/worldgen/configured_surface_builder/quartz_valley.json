@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:white_concrete_powder"
+    },
+    "under_material": {
+      "Name": "minecraft:smooth_quartz"
+    },
+    "underwater_material": {
+      "Name": "minecraft:smooth_quartz"
+    }
+  },
+  "type": "minecraft:wooded_badlands"
+}

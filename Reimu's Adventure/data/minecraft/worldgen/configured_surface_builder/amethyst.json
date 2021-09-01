@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:amethyst_block"
+    },
+    "under_material": {
+      "Name": "minecraft:amethyst_block"
+    },
+    "underwater_material": {
+      "Name": "minecraft:amethyst_block"
+    }
+  },
+  "type": "minecraft:default"
+}

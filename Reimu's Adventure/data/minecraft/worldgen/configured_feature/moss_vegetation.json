@@ -1,0 +1,76 @@
+{
+  "config": {
+    "to_place": {
+      "entries": [
+        {
+          "data": {
+            "Properties": {
+              "age": "3"
+            },
+            "Name": "minecraft:sugar_cane"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "Properties": {
+              "age": "3"
+            },
+            "Name": "minecraft:sweet_berry_bush"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:flowering_azalea"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:pumpkin"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:melon"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:azalea"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "Name": "minecraft:moss_carpet"
+          },
+          "weight": 40
+        },
+        {
+          "data": {
+            "Name": "minecraft:grass"
+          },
+          "weight": 40
+        },
+        {
+          "data": {
+            "Properties": {
+              "half": "lower"
+            },
+            "Name": "minecraft:tall_grass"
+          },
+          "weight": 12
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    },
+    "place_on": [],
+    "place_in": [],
+    "place_under": []
+  },
+  "type": "minecraft:simple_block"
+}

@@ -1,0 +1,228 @@
+{
+  "scale": 0.3,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 7254527,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "foliage_color": 8388564,
+    "grass_color": 65535
+  },
+  "surface_builder": "minecraft:quartz_valley",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:fossil",
+      "minecraft:monster_room"
+    ],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:ore_copper",
+      "minecraft:smooth_quartz"
+    ],
+    [
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone"
+    ],
+    [
+      "minecraft:lush_caves_clay",
+      "minecraft:lush_caves_vegetation",
+      "minecraft:trees_badlands",
+      "minecraft:patch_dead_bush_badlands",
+      "minecraft:glow_lichen",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "minecraft:patch_dead_bush_2",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane_desert",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_cactus_desert",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:seagrass_river",
+      "minecraft:sea_pickle"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+    "minecraft:village_desert",
+    "minecraft:pillager_outpost",
+    "minecraft:desert_pyramid",
+    "minecraft:mineshaft_mesa",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal_desert",
+    "minecraft:bastion_remnant",
+    "minecraft:end_city",
+    "minecraft:jungle_pyramid",
+    "minecraft:fortress",
+    "minecraft:mansion",
+    "minecraft:pillager_outpost"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 19,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 80,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {
+    "minecraft:skeleton": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:zombie": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:husk": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:spider": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:enderman": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:witch": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:creeper": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:zombie_villager": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:slime": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    }
+  },
+  "player_spawn_friendly": true,
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "mesa",
+  "depth": 0.125
+}

@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:chiseled_deepslate"
+    },
+    "under_material": {
+      "Name": "minecraft:cobbled_deepslate"
+    },
+    "underwater_material": {
+      "Name": "minecraft:cobbled_deepslate"
+    }
+  },
+  "type": "minecraft:default"
+}
